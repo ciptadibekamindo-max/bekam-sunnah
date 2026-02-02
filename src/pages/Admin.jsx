@@ -11,6 +11,7 @@ export default function Admin() {
   useEffect(() => {
     checkUser()
     fetchBookings()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const checkUser = async () => {
